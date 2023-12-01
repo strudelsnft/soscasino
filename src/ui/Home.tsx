@@ -9,20 +9,20 @@ export function Home() {
     <div className={styles.banner}>
       <Section>
         <h2>
-          What is this?
+          $SOS Casino
         </h2>
         <p style={{ wordWrap: 'break-word' }}>
-          An open source, decentralized casino built on Gamba. Copy this platform with your own branding and start earning fees on every bet.
+          An open source, decentralized casino built on Gamba.
         </p>
         <div style={{ display: 'flex', gap: '10px' }}>
           <Button
             as="a"
             color="white"
-            href="https://gamba.so"
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2mnGSkXH1h6x5qmhwoQzAZDKa83vnRf8wNkNWVbdv7w5&outputSymbol=%24S0S&fixed=in"
             target="_blank"
             icon={<Icon.ExternalLink />}
           >
-            Learn more
+            Buy $SOS
           </Button>
         </div>
       </Section>
